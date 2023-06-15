@@ -31,17 +31,17 @@ function App() {
           <main className="content">
             <TopBar />
             <Routes>
-              <Route path="/" element={<Dashboard />} />
-              <Route path="/team" element={<Team />} />
-              <Route path="/contacts" element={<Contacts />} />
-              <Route path="/invoices" element={<Invoices />} />
-              <Route path="/form" element={<Form />} />
-              <Route path="/calendar" element={<Calendar />} />
-              <Route path="/faq" element={<FAQ />} />
-              <Route path="/bar" element={<Bar />} />
-              <Route path="/pie" element={<Pie />} />
-              <Route path="/line" element={<Line />} />
-              <Route path="/geography" element={<Geography />} />
+              <Route path="/React-Admin-Dashboard/" element={<Dashboard />} />
+              <Route path="/React-Admin-Dashboard/team" element={<Team />} />
+              <Route path="/React-Admin-Dashboard/contacts" element={<Contacts />} />
+              <Route path="/React-Admin-Dashboard/invoices" element={<Invoices />} />
+              <Route path="/React-Admin-Dashboard/form" element={<Form />} />
+              <Route path="/React-Admin-Dashboard/calendar" element={<Calendar />} />
+              <Route path="/React-Admin-Dashboard/faq" element={<FAQ />} />
+              <Route path="/React-Admin-Dashboard/bar" element={<Bar />} />
+              <Route path="/React-Admin-Dashboard/pie" element={<Pie />} />
+              <Route path="/React-Admin-Dashboard/line" element={<Line />} />
+              <Route path="/React-Admin-Dashboard/geography" element={<Geography />} />
 
             </Routes>
           </main>
