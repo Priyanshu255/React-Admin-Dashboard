@@ -34,56 +34,56 @@ const SideBar = ({ children }) => {
   //   }
   const data = [
     {
-      path: "/team",
+      path: "/React-Admin-Dashboard/team",
       name: "Manage Team",
       icon: <PeopleOutlinedIcon />,
     },
     {
-      path: "/contacts",
+      path: "/React-Admin-Dashboard/contacts",
       name: "Contacts Information",
       icon: <ContactsOutlinedIcon />,
     },
     {
-      path: "/invoices",
+      path: "/React-Admin-Dashboard/invoices",
       name: "Invoices Balances",
       icon: <ReceiptOutlinedIcon />,
     },
   ];
   const pages = [
     {
-      path: "/form",
+      path: "/React-Admin-Dashboard/form",
       name: "Profile Form",
       icon: <PersonOutlinedIcon />,
     },
     {
-      path: "/calendar",
+      path: "/React-Admin-Dashboard/calendar",
       name: "Calendar Chart",
       icon: <CalendarTodayOutlinedIcon />,
     },
     {
-      path: "/faq",
+      path: "/React-Admin-Dashboard/faq",
       name: "FAQ Page",
       icon: <HelpOutlineOutlinedIcon />,
     },
   ];
   const charts = [
     {
-      path: "/bar",
+      path: "/React-Admin-Dashboard/bar",
       name: "Bar Chart",
       icon: <BarChartOutlinedIcon />,
     },
     {
-      path: "/pie",
+      path: "/React-Admin-Dashboard/pie",
       name: "Pie Chart",
       icon: <PieChartOutlineOutlinedIcon />,
     },
     {
-      path: "/line",
+      path: "/React-Admin-Dashboard/line",
       name: "Line Chart",
       icon: <TimelineOutlinedIcon />,
     },
     {
-      path: "/geography",
+      path: "/React-Admin-Dashboard/geography",
       name: "Geography",
       icon: <MapOutlinedIcon />,
     },
@@ -145,7 +145,7 @@ const SideBar = ({ children }) => {
         )}
         {!isCollapsed && (
           <Box mb='10px'>
-            <NavLink to="/" className={({isActive}) => isActive ? "activelink" : "link"} onClick={() => setSelected("Dashboard")}>
+            <NavLink to="/React-Admin-Dashboard/" className={({isActive}) => isActive ? "activelink" : "link"} onClick={() => setSelected("Dashboard")}>
               <IconButton className="icon" pr='10px'>
                 <HomeOutlinedIcon />
               </IconButton>
